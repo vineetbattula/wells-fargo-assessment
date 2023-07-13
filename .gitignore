@@ -1,0 +1,49 @@
+# Ignore node_modules directory
+/node_modules
+
+# Ignore build artifacts
+/dist
+/target
+
+# Ignore IDE-specific files
+/.idea
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Ignore log files
+/*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore generated documentation
+/docs
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
