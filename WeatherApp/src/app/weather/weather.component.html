@@ -1,0 +1,20 @@
+<div class="container">
+    <h1 class="title">Weather App</h1>
+    <div class="input-container">
+      <input type="text" [(ngModel)]="cityInput" placeholder="Enter city name">
+      <button (click)="addCity()">Add City</button>
+    </div>
+    
+    <div class="cards-container">
+      <div class="card" *ngFor="let city of cities" [style.background-image]="'url(' + getBackgroundImageUrl(city.temperature) + ')'">
+        <div class="remove-cross" (click)="removeCity(city)">&#10005;</div>
+        <div class="city-details">
+          <div class="location">{{ city.name }}</div>
+          <div class="details-bottom">
+            <div class="temperature">Temperature: {{ city.temperature | number: '1.0-0'}}°C</div>
+            <div class="humidity">Humidity: {{ city.humidity }}%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
