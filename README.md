@@ -23,7 +23,7 @@ To run the Weather Application locally, follow these steps:
 ### Prerequisites
 
 - Node.js and npm should be installed on your machine.
-- Java and Maven should be installed on your machine.
+- Java 17 and Maven should be installed on your machine.
 
 ### Front-end Setup
 
@@ -56,8 +56,8 @@ To run the Weather Application locally, follow these steps:
 
 ### Back-end Setup
 
-1. Install Java and Maven:
-   - Visit the official Java website: https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
+1. Install Java 17 and Maven:
+   - Visit the official Java website: https://www.oracle.com/java/technologies/javase-jdk17-downloads.html
    - Download and install the appropriate JDK (Java Development Kit) for your operating system.
    - Visit the official Maven website: https://maven.apache.org
    - Download the latest version of Maven and follow the installation instructions.
@@ -97,9 +97,4 @@ To run the Weather Application locally, follow these steps:
 
 Contributions to the Weather Application are welcome! If you find any issues or want to enhance the functionality, feel free to create a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 ```
-
-Make sure to replace "YOUR_API_KEY" with your actual API key in the `application.properties` file.

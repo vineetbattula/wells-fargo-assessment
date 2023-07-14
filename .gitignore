@@ -1,49 +1,47 @@
+# springboot
+# Ignore build artifacts
+weather-application/dist
+weather-application/target
+
+# Ignore log files
+/weather-application/*.log
+
+
+#angular
 # Ignore node_modules directory
 WeatherApp/node_modules
 
-# Ignore build artifacts
-/dist
-/target
-
 # Ignore IDE-specific files
-/.idea
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# Ignore log files
-/*.log
+WeatherApp/.idea
+WeatherApp/.project
+WeatherApp/.classpath
+WeatherApp/.c9/
+WeatherApp/*.launch
+WeatherApp/.settings/
+WeatherApp/*.sublime-workspace
 
 # Ignore OS-specific files
-.DS_Store
-Thumbs.db
+WeatherApp/.DS_Store
+WeatherApp/Thumbs.db
 
 # Ignore generated documentation
-/docs
+WeatherApp/docs
 
 # Ignore temporary files
-*.tmp
-*.temp
+WeatherApp/*.tmp
+WeatherApp/*.temp
 
 # Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+WeatherApp/.angular/cache
+WeatherApp/.sass-cache/
+WeatherApp/connect.lock
+WeatherApp/coverage
+WeatherApp/libpeerconnection.log
+WeatherApp/testem.log
+WeatherApp/typings
 
 # System files
-.DS_Store
-Thumbs.db
+WeatherApp/.DS_Store
+WeatherApp/Thumbs.db
 
 HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
