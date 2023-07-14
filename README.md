@@ -98,10 +98,10 @@ To run the Weather Application locally, follow these steps:
 Contributions to the Weather Application are welcome! If you find any issues or want to enhance the functionality, feel free to create a pull request.
 
 9. Video Demo
-
+```
 [Weather App Demo ](https://drive.google.com/file/d/1ZY74eMvwDwdUsUERVYUYKeZEIxU_1okT/view?usp=drive_link)
 
-
+```
 
 
 
